@@ -30,11 +30,6 @@ setup(name='rer.groupware.star',
           'rer.groupware.room',
           'rer.groupware.security',
           'rer.groupware.workflow',
-          'collective.blog.star',
-          'collective.blogstarentry',
-          'collective.portlet.blogstarentries',
-          'collective.portlet.discussion',
-          'redturtle.portlet.collection',
       ],
       entry_points="""
       [z3c.autoinclude.plugin]
