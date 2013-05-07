@@ -20,7 +20,6 @@ setup(name='rer.groupware.star',
       author_email='sviluppoplone@redturtle.it',
       url='http://svn.plone.org/svn/collective/',
       license='GPL',
-      packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['rer', 'rer.groupware'],
       include_package_data=True,
       packages=find_packages('src', exclude=['ez_setup']),
@@ -28,7 +27,14 @@ setup(name='rer.groupware.star',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'rer.groupware.room',
+          'rer.groupware.security',
+          'rer.groupware.workflow',
+          'collective.blog.star',
+          'collective.blogstarentry',
+          'collective.portlet.blogstarentries',
+          'collective.portlet.discussion',
+          'redturtle.portlet.collection',
       ],
       entry_points="""
       [z3c.autoinclude.plugin]
