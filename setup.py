@@ -30,6 +30,7 @@ setup(name='rer.groupware.star',
           'rer.groupware.room',
           'rer.groupware.security',
           'rer.groupware.workflow',
+          'rer.groupware.notify',
       ],
       entry_points="""
       [z3c.autoinclude.plugin]

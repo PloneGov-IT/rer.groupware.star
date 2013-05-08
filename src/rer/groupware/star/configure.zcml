@@ -10,7 +10,7 @@
       name="default"
       title="RER Groupware"
       directory="profiles/default"
-      description=""
+      description="A groupware suite of modules for Plone"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
