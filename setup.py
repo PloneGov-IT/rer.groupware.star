@@ -27,6 +27,7 @@ setup(name='rer.groupware.star',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'rer.groupware.core',
           'rer.groupware.room',
           'rer.groupware.security',
           'rer.groupware.workflow',
