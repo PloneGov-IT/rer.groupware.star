@@ -2,8 +2,8 @@
 <metadata>
   <version>1000</version>
   <dependencies>
+  		<dependency>profile-rer.groupware.room:default</dependency>
 		<dependency>profile-rer.groupware.core:default</dependency>
-        <dependency>profile-rer.groupware.room:default</dependency>
 		<dependency>profile-rer.groupware.security:default</dependency>
 		<dependency>profile-rer.groupware.workflow:default</dependency>
 		<dependency>profile-rer.groupware.notify:default</dependency>
