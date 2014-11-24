@@ -6,8 +6,8 @@ version = '1.0.2.dev0'
 setup(name='rer.groupware.star',
       version=version,
       description="The RER Groupware suite",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
@@ -18,7 +18,7 @@ setup(name='rer.groupware.star',
       keywords='plone plonegov groupware rer',
       author='RedTurtle Technology',
       author_email='sviluppoplone@redturtle.it',
-      url='http://svn.plone.org/svn/collective/',
+      url='https://github.com/PloneGov-IT/rer.groupware.star',
       license='GPL',
       namespace_packages=['rer', 'rer.groupware'],
       include_package_data=True,
