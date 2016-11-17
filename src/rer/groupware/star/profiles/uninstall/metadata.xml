@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>1000</version>
+  <dependencies>
+  		<dependency>profile-rer.groupware.room:uninstall</dependency>
+		<dependency>profile-rer.groupware.core:uninstall</dependency>
+		<dependency>profile-rer.groupware.security:uninstall</dependency>
+		<dependency>profile-rer.groupware.workflow:uninstall</dependency>
+		<dependency>profile-rer.groupware.notify:uninstall</dependency>
+  </dependencies>
+</metadata>
