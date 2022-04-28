@@ -12,8 +12,9 @@ setup(name='rer.groupware.star',
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
         "Framework :: Plone",
-        "Framework :: Plone :: 4.2",
+        "Framework :: Plone :: 5.2",
         "Programming Language :: Python",
+        "Programming Language :: Python :: 3.8",
         ],
       keywords='plone plonegov groupware rer',
       author='RedTurtle Technology',

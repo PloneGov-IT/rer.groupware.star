@@ -13,6 +13,7 @@
       description="A groupware suite of modules for Plone"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
   <genericsetup:registerProfile
       name="uninstall"
       title="RER Groupware: uninstall"
@@ -20,4 +21,5 @@
       description="A groupware suite of modules for Plone"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
 </configure>
